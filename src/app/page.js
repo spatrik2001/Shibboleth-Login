@@ -7,16 +7,14 @@ export default function Home() {
       <div className={styles.loginPanel}>
         <h2 className={styles.header}>Bejelentkezés</h2>
         <div className={styles.logo}>
-          <div>
-            <Image
-              src="/logoSzinesTeglalap.png"
-              alt="eduID"
-              className={styles.vercelLogo}
-              width={400}
-              height={120}
-              priority
-            />
-          </div>
+          <Image
+            src="/logoSzinesTeglalap.png"
+            alt="eduID"
+            className={styles.eduLogo}
+            width={230}
+            height={72}
+            priority
+          />
         </div>
 
         <div className={styles.description}>
@@ -25,18 +23,16 @@ export default function Home() {
 
         <hr/>
 
-        <div className={styles.button}>
+        <div className={styles.loginDiv}>
           <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
+            href="http://localhost/dashboard"
+            className={styles.button}
             rel="noopener noreferrer"
-          >
-            <h2>Docs <span>-&gt;</span></h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          >Bejelentkezés
           </a>
         </div>
       </div>
+      <footer className={styles.footer}>asd</footer>
     </main>
   );
 }
