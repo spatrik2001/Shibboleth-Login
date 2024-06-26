@@ -25,7 +25,7 @@ export default function Home() {
 
         <div className={styles.loginDiv}>
           <a
-            href="http://localhost/login/"
+            href="/login/"
             className={styles.button}
             rel="noopener noreferrer"
           >Bejelentkezés
