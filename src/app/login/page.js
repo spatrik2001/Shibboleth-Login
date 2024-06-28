@@ -14,7 +14,7 @@ export default function Login() {
                     <h1 className={styles.header}>Kérjük jelentkezzen be!</h1>
                     <hr/>
                     <h3>Please login!</h3>
-                    <form action="/login" method="post">
+                    <form action="http://localhost/secured" method="post">
                     <input className={styles.userinput} type="text" name="username" id="username" placeholder="Felhasználónév / Username" required/>
                     <input className={styles.userinput} type="password" name="password" id="password" placeholder="Jelszó / Password" required/>
                     <input className={styles.userbutton} type="submit" value="Belépés / Login"/>
