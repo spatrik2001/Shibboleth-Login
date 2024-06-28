@@ -12,4 +12,4 @@ A projekt létrehozásakor a következő programozási nyelvek és egyéb érdek
 ### Futtatás
 Nincs más teendő, mint terminálba lefuttatni a `npm run dev` parancsot, amivel elindíthatjuk a lokális szerveren futó projektünket.
 
-** Megjegyzés: ** A szerver portja az applikáció megírása során a 8081-es portot használta, ez szabadon változtatható.
+**Megjegyzés:** A szerver portja az applikáció megírása során a 8081-es portot használta, ez szabadon változtatható.
