@@ -32,7 +32,7 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <footer className={styles.footer}>asd</footer>
+      {/* <footer className={styles.footer}>asd</footer> */}
     </main>
   );
 }

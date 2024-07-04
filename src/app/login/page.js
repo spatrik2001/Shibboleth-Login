@@ -15,16 +15,16 @@ export default function Login() {
                     <hr/>
                     <h3>Please login!</h3>
                     <form action="http://localhost/secured" method="post">
-                    <input className={styles.userinput} type="text" name="username" id="username" placeholder="Felhasználónév / Username" required/>
-                    <input className={styles.userinput} type="password" name="password" id="password" placeholder="Jelszó / Password" required/>
-                    <input className={styles.userbutton} type="submit" value="Belépés / Login"/>
-                    <input type="hidden" name="SAMLResponse" value="<response>"/>
-                    <input type="hidden" name="RelayState" value="<url>"/>
+                        <input className={styles.userinput} type="text" name="username" id="username" placeholder="Felhasználónév / Username" required/>
+                        <input className={styles.userinput} type="password" name="password" id="password" placeholder="Jelszó / Password" required/>
+                        <input className={styles.userbutton} type="submit" value="Belépés / Login"/>
+                        <input type="hidden" name="SAMLResponse" value="<response>"/>
+                        <input type="hidden" name="RelayState" value="<url>"/>
                     </form>
                     <div className={styles.bottom_informations}>
-                        <div className={styles.faq}>
+                        {/* <div className={styles.faq}>
                             <a href="#">Adatvédelem</a>
-                        </div>
+                        </div> */}
                         <div className={styles.icons}>
                             <Image src="/logo_eduid.png" alt="eduID logo" width={64} height={25}/>
                             <Image src="/logo_shi.png" alt="Shibboleth logo" width={72} height={25}/>
